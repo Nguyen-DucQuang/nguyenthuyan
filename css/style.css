@@ -1490,7 +1490,7 @@ h1{font-size:clamp(3.3rem,9vw,8.6rem);line-height:.82;margin:20px 0 22px;letter-
   z-index:1;
   width:100%;
   margin:0;
-  padding-left:clamp(32px,5vw,64px);
+  padding:0 clamp(18px,3vw,32px) 0 clamp(32px,5vw,64px);
   display:grid;
   grid-template-columns:minmax(0,1fr) minmax(260px,330px);
   gap:clamp(28px,4vw,54px);
@@ -1676,7 +1676,7 @@ h1{font-size:clamp(3.3rem,9vw,8.6rem);line-height:.82;margin:20px 0 22px;letter-
 @media(max-width:640px){
   .about-cv-layout{
     width:100%;
-    padding-left:14px;
+    padding:0 14px;
   }
   .about-title-image{
     width:min(330px,100%);
