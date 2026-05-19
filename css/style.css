@@ -1995,7 +1995,7 @@ h1{font-size:clamp(3.3rem,9vw,8.6rem);line-height:.82;margin:20px 0 22px;letter-
 .site-header .container{
   width:min(100% - 36px,1280px);
 }
-.portfolio-page:where(.about-cv-section,.branding-page-section,.project-next-section,.workshop-page-section,.food-poster-section){
+.portfolio-page:where(.about-cv-section,.project-next-section,.workshop-page-section,.food-poster-section){
   min-height:calc(100vh - 78px);
 }
 .food-after-workshop.portfolio-page.is-active-page{
